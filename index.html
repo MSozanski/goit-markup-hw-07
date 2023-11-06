@@ -54,6 +54,15 @@
             </li>
           </ul>
         </address>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg width="32" height="22" class="menu-toggle-svg">
+            <use href="./images/icons.svg#icon-hamburger"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main class="main">
@@ -69,7 +78,7 @@
       <section class="section">
         <div class="container">
           <ul class="main-list">
-            <li class="list">
+            <li class="mobile-main-list list">
               <svg class="main-list-icon">
                 <use href="./images/icons.svg#icon-antenna-1"></use>
               </svg>
@@ -79,7 +88,7 @@
                 the perfect and creative solution.
               </p>
             </li>
-            <li class="list">
+            <li class="mobile-main-list list">
               <svg class="main-list-icon">
                 <use href="./images/icons.svg#icon-clock-1"></use>
               </svg>
@@ -89,7 +98,7 @@
                 within the shortest possible time.
               </p>
             </li>
-            <li class="list">
+            <li class="mobile-main-list list">
               <svg class="main-list-icon">
                 <use href="./images/icons.svg#icon-diagram-1"></use>
               </svg>
@@ -99,7 +108,7 @@
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li class="list">
+            <li class="mobile-main-list list">
               <svg class="main-list-icon">
                 <use href="./images/icons.svg#icon-astronaut-1"></use>
               </svg>
@@ -479,40 +488,40 @@
       <section class="section">
         <div class="container">
           <h2 class="main-texth2">customers</h2>
-          <ul class="main-list">
+          <ul class="mobile-customer-list main-list">
             <li class="main-list-customer">
               <a class="main-list-customer-link" href="#0">
-                <svg class="main-list-customer-icon" width="168" height="88">
+                <svg class="main-list-customer-icon">
                   <use href="./images/icons.svg#icon-Logo"></use></svg
               ></a>
             </li>
             <li class="main-list-customer">
               <a class="main-list-customer-link" href="#0">
-                <svg class="main-list-customer-icon" width="168" height="88">
+                <svg class="main-list-customer-icon">
                   <use href="./images/icons.svg#icon-Logo-1"></use></svg
               ></a>
             </li>
             <li class="main-list-customer">
               <a class="main-list-customer-link" href="#0">
-                <svg class="main-list-customer-icon" width="168" height="88">
+                <svg class="main-list-customer-icon">
                   <use href="./images/icons.svg#icon-Logo-2"></use></svg
               ></a>
             </li>
             <li class="main-list-customer">
               <a class="main-list-customer-link" href="#0">
-                <svg class="main-list-customer-icon" width="168" height="88">
+                <svg class="main-list-customer-icon">
                   <use href="./images/icons.svg#icon-group"></use></svg
               ></a>
             </li>
             <li class="main-list-customer">
               <a class="main-list-customer-link" href="#0">
-                <svg class="main-list-customer-icon" width="168" height="88">
+                <svg class="main-list-customer-icon">
                   <use href="./images/icons.svg#icon-Logo-3"></use></svg
               ></a>
             </li>
             <li class="main-list-customer">
               <a class="main-list-customer-link" href="#0">
-                <svg class="main-list-customer-icon" width="168" height="88">
+                <svg class="main-list-customer-icon">
                   <use href="./images/icons.svg#icon-Logo-4"></use></svg
               ></a>
             </li>
@@ -523,7 +532,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-container-logo">
-          <a href="index.html" class="navigation-logo logo-footer"
+          <a href="index.html" class="logo-footer"
             ><span class="navigation-logo-color"> WEB</span>STUDIO
           </a>
           <p class="footer-mission">
@@ -720,6 +729,73 @@
         </form>
       </div>
     </div>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button type="button" class="menu-container-toggle js-close-menu">
+        <svg width="8" height="8" class="modal-close-x">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <ul class="mobile-menu list">
+        <li>
+          <a href="./index.html" class="mobile-menu-list current link"
+            >Studio</a
+          >
+        </li>
+        <li>
+          <a href="./portfolio.html" class="mobile-menu-list link">Portfolio</a>
+        </li>
+        <li><a href="#" class="mobile-menu-list link">Contacts</a></li>
+      </ul>
+      <address class="mobile-address">
+        <ul class="mobile-addres-list list">
+          <li>
+            <a class="mobile-address-phone link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li>
+            <a class="mobile-address-mail link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+      </address>
+      <div class="mobile-social-contener">
+      <ul class="mobile-social-icon">
+        <li class="list">
+          <a class="footer-container-social-icon-link" href="#0">
+            <svg class="footer-container-social-icon-background" width="40" height="40">
+              <use width="24" height="24" x="8" y="8" href="./images/icons.svg#icon-instagram-2"></use>
+            </svg></a>
+        </li>
+        <li class="list">
+          <a class="footer-container-social-icon-link" href="#0">
+            <svg class="footer-container-social-icon-background" width="40" height="40">
+              <use width="24" height="24" x="8" y="8" href="./images/icons.svg#icon-twitter-1"></use>
+            </svg></a>
+        </li>
+        <li class="list">
+          <a class="footer-container-social-icon-link" href="#0">
+            <svg class="footer-container-social-icon-background" width="40" height="40">
+              <use width="24" height="24" x="8" y="8" href="./images/icons.svg#icon-facebook-1"></use>
+            </svg></a>
+        </li>
+        <li class="list">
+          <a class="footer-container-social-icon-link" href="#0">
+            <svg class="footer-container-social-icon-background" width="40" height="40">
+              <use width="24" height="24" x="8" y="8" href="./images/icons.svg#icon-linkedin-1"></use>
+            </svg></a>
+        </li>
+      </ul>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
