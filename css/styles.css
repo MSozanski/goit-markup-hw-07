@@ -676,6 +676,8 @@ body {
 .main-portfolio-section {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   column-gap: 24px;
   row-gap: 48px;
 }
@@ -703,7 +705,7 @@ body {
 }
 
 .portfolio-main-list-section {
-  width: 360px;
+  min-width: 360px;
 }
 
 .portfolio-main-list-link:hover {
@@ -1119,6 +1121,16 @@ body {
   .search{
     justify-content: flex-start;
     margin: 48px 0;
+  }
+  .main-portfolio-section{
+    column-gap: 0;
+  }
+  .portfolio-main-image-block{
+    width: 396px;
+    height: 280px;
+  }
+  .portfolio-main-list-card{
+    width: 396px;
   }
 }
 
