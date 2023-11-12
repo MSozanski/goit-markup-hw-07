@@ -271,6 +271,18 @@ body {
     background-size: cover;
     background-position: center;
   }
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .main>.section:first-child {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+          url(../images/people-office@2x.jpg);
+      }
+    }
+
   .main > .section > .container {
     display: flex;
     align-items: center;
@@ -618,6 +630,38 @@ body {
 
   /* ##### END FOOTER ##### */
 }
+@media screen and (max-width:428px){
+  .container{
+    max-width: 290px;
+  }
+  .main-list-undertitle{
+    max-width: 396px;
+    min-width: 200px;
+  }
+  .footer-container-subscribe-input{
+    min-width: 250px;
+  }
+  .footer-container-form{
+    min-width: 250px;
+  }
+  .modal-body{
+max-width:300px;
+  }
+  .modal-body-text{
+    width: 250px;
+  }
+ 
+ .modal-body-form-input{
+  max-width: 280px;
+ }
+ .modal-body-form-comment{
+  max-width: 280px;
+ }
+ .modal-body-privacy-label{
+  text-align: center;
+ }
+}
+
 /* ============================================= MOBILE END  ====================================== */
 
 /* ============================================ TABLET 👇 ========================================= */
@@ -781,6 +825,17 @@ body {
     background-size: cover;
     background-position: center;
   }
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .main>.section:first-child {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+          url(../images/people-office@2x.jpg);
+      }
+    }
 
   .main > .section > .container {
     display: flex;
@@ -1292,6 +1347,16 @@ body {
     background-size: cover;
     background-position: center;
   }
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .main>.section:first-child {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+          url(../images/people-office@2x.jpg);
+      }
+    }
 
   .main > .section > .container {
     display: flex;
